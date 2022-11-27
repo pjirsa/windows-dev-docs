@@ -111,7 +111,7 @@ namespace MauiOnWindows
 > [!NOTE]
 > You will need to update the namespace in the previous code to match the namespace in your project.
 
-9. Open the **MainVieModel.cs** file for editing and remove the `OnCounterClicked` method and the `count` field.
+9. Open the **MainPage.xaml.cs** file for editing and remove the `OnCounterClicked` method and the `count` field.
 
 10. Add the following code to the `MainPage` constructor after the call to `InitializeComponenent()`. This code will receive the message sent by `IncrementCounter()` in the `MainViewModel` and will update the `CounterBtn.Text` property with the new message and announce the new text with the `SemanticScreenReader`:
 
